@@ -4,6 +4,12 @@ public class ArithmeticExpression {
 
     public boolean arithmeticExpression(int a, int b, int c) {
 
-        return true;
+        double ad = a;
+
+        if (ad * b == c | ad + b == c | ad / b == c | ad - b == c) {
+            return true;
+        }
+
+        return false;
     }
 }
